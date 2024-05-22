@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Titillium+Web:wght@200;300;400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #19314d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 28px;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.contenedor-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .item {
+        width: calc(25% - 20px); 
+    }
+}
+
+.item:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; 
+}
+
+.item .titulo-item {
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.item .precio-item {
+    font-weight: bold;
+    color: #19314d;
+    padding: 10px;
+    text-align: center;
+}
+
+.item .boton-item {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #1c2f55;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.item .boton-item:hover {
+    background-color: #233f69;
+}
+
+.menu-toggle {
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.menu {
+    display: none;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-toggle.active + .menu {
+    display: block;
+}
+
+.seccion-destacada {
+    padding: 0;
+}
+
+.contenido-seccion {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contenido-seccion img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.carrito {
+    background-color: #ffffff;
+    border-radius: 0;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.carrito .header-carrito {
+    background-color: #19314d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.carrito .carrito-items {
+    padding: 10px;
+}
+
+.carrito .carrito-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; 
+}
+
+.carrito .carrito-item:last-child {
+    border-bottom: none;
+}
+
+.carrito .carrito-nombre {
+    font-weight: bold;
+}
+
+.carrito .carrito-precio {
+    font-weight: bold;
+    color: #19314d;
+}
+
+.carrito .carrito-total {
+    background-color: #19314d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.carrito .fila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.carrito .fila strong {
+    font-weight: bold;
+}
+
+.carrito .carrito-precio-total {
+    font-weight: bold;
+}
+
+.carrito .btn-pagar {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #1c2f55;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0;
+}
+
+.carrito .btn-pagar:hover {
+    background-color: #233f69;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 1px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}

@@ -1,0 +1,52 @@
+{
+    "productos": [
+    {
+        "id": 1,
+        "titulo": "SMOKED SALMON WITH DRESSING",
+        "precio": 15000,
+        "imagenSrc": "img/salmon.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "SPINACH SALAD WITH CHICKEN",
+        "precio": 21000,
+        "imagenSrc": "img/ensalada22.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "MONTEREY JACK BURGER",
+        "precio": 23600,
+        "imagenSrc": "img/burger2.jpg"
+    },
+    {
+        "id": 4,
+        "titulo": "FILET MIGNON AND MASHED POTATOES",
+        "precio": 28300,
+        "imagenSrc": "img/filet2.jpg"
+    },
+    {
+        "id": 5,
+        "titulo": "CHOCOLATE CAKE",
+        "precio": 12700,
+        "imagenSrc": "img/chocolatecake.jpg"
+    },
+    {
+        "id": 6,
+        "titulo": "KEY LIME CAKE",
+        "precio": 11000,
+        "imagenSrc": "img/lemoncake.jpg"
+    },
+    {
+        "id": 7,
+        "titulo": "Deluxe Cocktail",
+        "precio": 9800,
+        "imagenSrc": "img/cocktail.jpg"
+    },
+    {
+        "id": 8,
+        "titulo": "COCA COLA",
+        "precio": 2800,
+        "imagenSrc": "img/coca.jpg"
+    }
+    ]
+}
